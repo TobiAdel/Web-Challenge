@@ -1,0 +1,106 @@
+body{
+    background-color: #ededed;
+   
+}
+
+.pageformat {
+font-family:"Times New Roman", Times, serif;}
+
+.navbar-nav > li{
+    padding-right:13px;}
+
+.navigation-border{
+    border-style: solid;}
+.navbar{
+    background-color: white;
+   height: 50px;
+   width: 100%;
+
+
+}
+
+.boxed {
+    /* border: 1px solid green ; */
+    background-color: cadetblue;
+}
+
+
+@media (max-width: 992px){
+    .navbar{
+            background-color: cadetblue;
+            height: 48px;  
+        }
+        .boxed {
+            /* border: 1px solid green ; */
+            background-color: cadetblue;
+        }  
+        body{
+            background-color: white}
+
+        .box3 {
+                padding: 30px; margin: 10px; background-color: blue
+              }
+              
+        .dropdown-menu {
+            border: none;
+        }
+        .navbar-nav{
+            border-bottom: 1px solid #ededed;
+          }
+        .nav-link.active{
+            background-color: #ededed;
+            height: 47px;
+            
+        }
+
+        .container{
+            margin-top: 265px;
+        }
+        .hrdash {
+            border-top: 0.5px solid #ededed;
+          }
+         
+         
+}
+
+
+  
+
+.box1 {
+    padding: 40px; margin-top: 15px; background:white
+  }
+  
+.box2 {
+     padding: 40px; margin-top: 15px; background:white;  height: 360px; 
+    
+  }
+
+.box3 {
+    padding: 40px; margin-top: 15px; background:white;
+  }
+ 
+  .box4 {
+    padding: 40px; margin-top: 10px; background:white;
+  }
+  
+ 
+.cityfloat {float: left;
+    width:211px;
+     height:130;
+  }
+
+.citycenter {
+    width: 480px;
+     height:130;
+  }
+
+.citylarge{
+    width: 480px;
+     height:130;
+  }
+
+.containerimg{
+    width: 160px;
+     height:130;
+  }
+
